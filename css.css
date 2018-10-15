@@ -1,0 +1,42 @@
+*{
+	box-sizing: border-box;
+}
+
+.image{
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-image: url(plano.jpg);
+	z-index: -1;
+}
+
+.container{
+	height: 100vh;
+	width: 40%;
+	display: flex;
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: white;
+	flex-direction: column;
+}
+
+.titulo{
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: center;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.box{
+	padding: 1em;
+}
