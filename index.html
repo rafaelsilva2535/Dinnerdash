@@ -2,30 +2,43 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>SLA</title>
+	<title>Dinnerdash Cadastro</title>
 	<link rel="stylesheet" href="css.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 	<div class="image"></div>
 	<div class="container">
-		<div class="titulo">dinnerdash</div>
+		<div class="titulo1">dinnerdash</div>
 		<form class="form">
+			<p>
+				<div class ="box1"><label>Nome</label></div>
+				<div class ="box2"><input type="text" name="nome" id="nome" value=""></div>
+			</p>
 			
-			<div class ="box"><label>Nome</label></div>
-			<div class ="box"><input type="text" name="nome" id="nome" value=""></div>
+			<p>
+				<div class ="box1"><label>Email</label></div>
+				<div class ="box2"><input type="text" name="email" id="email" value=""></div>
+			</p>
 			
-			<div class ="box"><label class ="box">Email</label></div>
-			<div class ="box"> <input type="text" name="email" id="nome" value=""></div>
+			<p>
+				<div class ="box1"><label>Senha</label></div>
+				<div class ="box2"><input type="password" name="senha" id="senha" value=""></div>
+			</p>
 			
+			<p>
+				<div class ="box1"><label>Confirme sua senha</label>
+				<div class ="box3"><input type="password" name="confirma" id="confirma" value=""></div>
+			</p>
 			
-			<div class ="box"><label class ="box">Senha</label></div>
-			<div class ="box"><input type="password" name="senha" id="nome" value=""></div>
-			
-			
-			<div class ="box"><label class ="box">confirmar sua senha</label>
-			<div class ="box"> <input type="password" name="nome" id="nome" value=""></div>
+			<div><input type="submit" name="cadastrar" id="cadastrar" value="cadastrar"></div>
+			<hr>
+			<p><div class="conta1">Já possui conta?</div></p>
+			<div><input type="submit" name="entrar" id="entrar" value="fazer login"></div>
 		</form>
+		
+
+
 	</div>
 </body>
 </html>
